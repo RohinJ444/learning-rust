@@ -1,0 +1,12 @@
+fn main() {
+    let reference_to_nothing = dangle();
+}
+
+fn dangle() -> &String {
+    let s = String::from("hello");
+
+    return &s;
+}
+
+// This code errors because s goes out of scope at the end of the function call to dangle, but the function
+// returns a reference to a now out-of-scope variable.
