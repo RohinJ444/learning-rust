@@ -1,0 +1,1 @@
+All code in this repo is adapted from the [Rust Programming Language book](https://doc.rust-lang.org/book/title-page.html) by Steve Klabnik, Carol Nichols, and Chris Krycho, with contributions from the Rust Community
